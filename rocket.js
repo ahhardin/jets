@@ -5,9 +5,14 @@ class Rocket {
     this.size = size
   }
 
-  this.launch = function () {
+  launch() {
     console.log('3, 2, 1, blastoff!');
   }
+
+  engageSecondaryEngines() {
+    console.log('Secondary Engines Engaged!');
+  };
+
 }
 
 export default Rocket
